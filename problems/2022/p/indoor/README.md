@@ -8,5 +8,5 @@ In a file called `indoor.py`, implement a program in Python that prompts the use
 
 ## Hints
 
-- Recall that input returns a str, per the [documentation](https://docs.python.org/3/library/functions.html#input)
-- Recall that a str comes with quite a few methods, per the [documentation](https://docs.python.org/3/library/stdtypes.html#string-methods)
+- Recall that `input` returns a `str`, per the [documentation](https://docs.python.org/3/library/functions.html#input)
+- Recall that a `str` comes with quite a few methods, per the [documentation](https://docs.python.org/3/library/stdtypes.html#string-methods)
