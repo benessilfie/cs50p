@@ -14,10 +14,11 @@ total_cost = 0
 
 while True:
     try:
-        item = input("Item: ").title()
-        if item in menu:
-            total_cost += menu[item]
-            print(f"Total ${total_cost:.2f}")
-    except EOFError:
+        order = input("Item: ").title()
+
+        if order in menu:
+            total_cost += menu[order]
+            print(f"Total Cost: ${total_cost:.2f}")
+    except (EOFError):
         print()
         break
