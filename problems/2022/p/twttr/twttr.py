@@ -1,11 +1,19 @@
-tweet = input("Input: ")
+def main():
+    word = input("Input: ")
+    print(shorten(word))
 
-print(f"Output: ", end="")
 
-for char in tweet:
-    if char.lower() in ["a", "e", "i", "o", "u"]:
-        print("", end="")
-    else:
-        print(char, end="")
+def shorten(word) -> str:
+    shorten = ""
 
-print("")
+    for char in word:
+        if char.lower() in ["a", "e", "i", "o", "u"]:
+            shorten += ""
+        else:
+            shorten += char
+
+    return shorten
+
+
+if __name__ == "__main__":
+    main()
