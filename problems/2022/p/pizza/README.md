@@ -1,4 +1,4 @@
-# Problem Set 4: Adieu, Adieu
+# Problem Set 6: Pizza Py
 
 [![IMAGE_ALT](https://img.youtube.com/vi/TkABR72j7jU/maxresdefault.jpg)](https://youtu.be/TkABR72j7jU)
 
